@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.6.0', '3.7.0', '3.8.0', '3.9.0', '3.10.0']
+        python-version: ['3.x']
     steps:
       - name: Code checkout
         uses: actions/checkout@v3
